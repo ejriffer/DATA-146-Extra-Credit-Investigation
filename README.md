@@ -8,9 +8,9 @@ The data that was explored in this report was a household survey from the West A
 
 Below are histograms that show the distribution of the responses for each column of the data table. 
 
-[]!(Screen Shot 2020-11-11 at 3.41.38 PM.png)
+![](Screen Shot 2020-11-11 at 3.41.38 PM.png)
 
-[Size Histogram]!(https://github.com/ejriffer/DATA-146-Extra-Credit-Investigation/issues/2#issue-741106944)
+![](Screen Shot 2020-11-11 at 5.11.47 PM.png)
 
 [Age Histogram]!(https://github.com/ejriffer/DATA-146-Extra-Credit-Investigation/issues/4#issue-741109446)
 
