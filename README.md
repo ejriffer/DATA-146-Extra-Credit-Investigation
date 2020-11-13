@@ -8,17 +8,17 @@ The data that was explored in this report was a household survey from the West A
 
 Below are histograms that show the distribution of the responses for each column of the data table. 
 
-![](Screen Shot 2020-11-11 at 3.41.38 PM.png)
+![](age.png)
 
-![](Screen Shot 2020-11-11 at 5.11.47 PM.png)
+![](education.png)
 
-[Age Histogram]!(https://github.com/ejriffer/DATA-146-Extra-Credit-Investigation/issues/4#issue-741109446)
+![](gender.png)
 
-[Gender Histogram]!(https://github.com/ejriffer/DATA-146-Extra-Credit-Investigation/issues/5#issue-741109792)
+![](location.png)
 
-[Wealth Histogram]!(https://github.com/ejriffer/DATA-146-Extra-Credit-Investigation/issues/6#issue-741110116)
+![](size.png)
 
-[Education Histogram]!(https://github.com/ejriffer/DATA-146-Extra-Credit-Investigation/issues/3#issue-741109148)
+![](wealth.png)
 
 The purpose of this report is to analyze this data and see if any classification models can be used to accurately predict what the education level of a given person is based on their responses in the other columns. Before any classification models were run on the data it was first split into testing and training groups using the sklearn train_test_split library, where the 50% of the data was used as training and the other 50% used as a testing set. A random state of 146 was used to ensure results could be repeated. The classification models that were run include Logistic Regression, kNN, Decision Tree Classifier, and Random Forest Classifier. The results were standardized using MinMaxScaler, RobustScaler, StandardScaler, and Normalizer all from sklearn's preprocessing library. 
 
@@ -32,7 +32,7 @@ The next classification model run on the data was a kNN model. A range of values
 
 So, the best kNN model was with no scaler, at 68.5%, which outperforms the best Logistic Regression model by almost 4%. 
 
-[kNN Graph]!(https://github.com/ejriffer/DATA-146-Extra-Credit-Investigation/issues/7#issue-741755847)
+![](kNN.png)
 
 ## Decision Tree Classifier
 
@@ -50,4 +50,4 @@ So the best Random Forest Classifier, rounding out to 2 decimal points was the R
 
 Comparing all of the classification models run on this data the most accurate was the Random Forest Classifier at 72.47%. So, based on the location, wealth, gender, age, and size of the individual this model will accurately predict their education level 72.47% of the time. Throughout this report the accuracy improved, but there are most likely different models, or models with different parameters that can improve upon the best accuracy found here.
 
-[Final Comparison]!(https://github.com/ejriffer/DATA-146-Extra-Credit-Investigation/issues/8#issue-741765851)
+![](final.png)
